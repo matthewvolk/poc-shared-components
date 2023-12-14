@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function Home() {
+export default function AppRouter() {
   return (
     <main className="container mx-auto p-6 flex space-x-4">
-      <Link href="/app">App Router</Link>
-      <Link href="/pages">Pages Router</Link>
+      <h1>App Router</h1>
+      <Link href="/">Back</Link>
     </main>
   );
 }
